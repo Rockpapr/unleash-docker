@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "basic-auth": "^2.0.1",
+    "tsscmp": "^1.0.6",
     "unleash-server": "^3.2.23"
   }
 }
