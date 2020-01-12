@@ -8,7 +8,7 @@
 
 const auth = require("basic-auth");
 const compare = require("tsscmp");
-const { User } = require("../lib/server-impl.js");
+const { User } = require("unleash-server/lib/server-impl.js");
 
 const basicAuthentication = (userName, password) => app => {
   app.use("/api/admin/", (req, res, next) => {
